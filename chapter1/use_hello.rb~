@@ -1,0 +1,5 @@
+#require "hello"  --this usage is wrong.
+#require_relative "hello"  --right
+require "./hello"   #right
+
+hello
