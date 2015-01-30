@@ -1,8 +1,0 @@
-a=20
-if a>=10 then
-  print "bigger\n"
-end
-else 
-  print "smaller\n"
-end
-
