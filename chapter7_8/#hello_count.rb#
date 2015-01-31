@@ -1,0 +1,16 @@
+class HelloCount
+  @@count=0           #类变量以@@开头
+  def self.count
+    @@count
+  end
+  def initialize(myname="ruby")
+    @name=myname
+  end
+  
+  def hello
+    @@count+=1
+    puts "Hello world,I am #{@name}"
+  end
+end
+
+bob=HelloC
